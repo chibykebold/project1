@@ -1,0 +1,74 @@
+            body {
+                background-color: #fff;
+            }
+            /* add a black background color to the top navigation */
+            
+            header .topnav {
+                background-color: #327da8;
+                overflow: hidden;
+            }
+            /* style the link inside the navigation bar  */
+            
+            header .topnav a {
+                float: right;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+            }
+            
+            header .topnav h1 a {
+                float: left;
+                font-size: 30px;
+            }
+            /* change the color of links on hover */
+            
+            header .topnav a:hover {
+                background-color: #327da8;
+                color: black;
+            }
+            
+            header .topnav h1 a:hover {
+                color: black;
+            }
+            /* add a color to the active/currrent link  */
+            
+            header .topnav a.active {
+                color: white;
+            }
+            
+            header .topnav a.active:hover {
+                color: orange;
+            }
+            
+            .myImg img {
+                width: 100%;
+            }
+            
+            .section {
+                width: 100%;
+                height: 60px;
+                margin-top: 10px;
+            }
+            
+            .boot img {
+                float: left;
+                width: 60%;
+                height: 100%;
+                margin-right: 20px;
+            }
+            
+            .section .writeup {
+                margin-top: 100px;
+            }
+            
+            .section .writeup h1 p {
+                float: right;
+                width: 40%;
+                height: 80%;
+            }
+            
+            .section .writeup .tip {
+                text-justify: center;
+            }
